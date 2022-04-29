@@ -1,6 +1,6 @@
-import React from 'react'
-import classes from './MelasSummary.module.css'
-function MelasSummary() {
+import classes from './MealsSummary.module.css';
+
+const Mealssummary = () => {
   return (
     <section className={classes.summary}>
       <h2>Delicious Food, Delivered To You</h2>
@@ -13,7 +13,7 @@ function MelasSummary() {
         of course by experienced chefs!
       </p>
     </section>
-  )
-}
+  );
+};
 
-export default MelasSummary
+export default Mealssummary;
